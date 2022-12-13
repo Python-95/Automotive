@@ -1,0 +1,237 @@
+@font-face {
+  font-family: "Quite Chocolatey";
+  src: url(../fonts/QuiteChocolatey.ttf);
+}
+@font-face {
+  font-family: "couture-bld.otf";
+  src: url(../fonts/couture-bld.otf);
+}
+*, a {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+.container {
+  width: 1012px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.header {
+  background-image: url(../img/MainBcg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: space-between;
+  padding-top: 60px;
+  color: #fff;
+}
+.header__logo {
+  font-family: "Quite Chocolatey";
+  font-size: 88px;
+  line-height: 32px;
+  font-stretch: 22px;
+}
+.header__menu {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 160px;
+}
+.header__menu_items {
+  display: flex;
+  justify-content: space-between;
+}
+.header__menu_items a {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+}
+.header__menu_item {
+  padding: 10px 15px;
+  transition: all 0.3s;
+  border-radius: 5px;
+}
+.header__menu_item:hover {
+  background-color: #130e27;
+  padding: 10px 15px;
+}
+.header__title {
+  text-align: left;
+  max-width: 55%;
+}
+.header__title h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 90px;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 85px;
+}
+.header__title-1 {
+  color: #130e27;
+}
+.header__title-2 {
+  color: #fff;
+  margin-bottom: 35px;
+}
+.header__text {
+  font-family: "PT Serif", serif;
+  font-size: 20px;
+  line-height: 28px;
+  color: #fff;
+  padding-bottom: 160px;
+  max-width: 55%;
+  text-align: left;
+}
+
+.services__title {
+  display: flex;
+  font-family: "couture-bld.otf";
+  font-size: 50px;
+  text-transform: uppercase;
+  padding-top: 42px;
+  margin-bottom: 95px;
+}
+.services__title-1 {
+  color: #c62314;
+  padding-left: 16px;
+}
+.services__title-2 {
+  color: #130e27;
+  padding-left: 16px;
+}
+
+.services__items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.services__item {
+  max-width: 220px;
+}
+.services__item-icon {
+  margin-bottom: 50px;
+  height: 150px;
+}
+.services__item-text {
+  font-family: "PT Serif", serif;
+  font-size: 20px;
+  line-height: 28px;
+  margin-bottom: 65px;
+}
+
+.story {
+  background-color: #130e27;
+}
+
+.story__items {
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.story__items-text {
+  max-width: 620px;
+  font-family: "PT Serif", serif;
+  font-size: 20px;
+  line-height: 35px;
+  color: #efeff1;
+  text-align: left;
+}
+.story__items-btn {
+  color: #fff;
+  background-color: #c62314;
+  transition: all 0.3s;
+}
+.story__items-btn:hover {
+  scale: 1.08;
+}
+
+.btn {
+  font-family: "Montserrat", sans-serif;
+  border-radius: 10px;
+  font-size: 22px;
+  text-transform: uppercase;
+  padding: 24px 77px;
+  border: none;
+  cursor: pointer;
+}
+
+.pricing {
+  background-color: #efefef;
+}
+.pricing__container {
+  flex-direction: column;
+}
+.pricing__title {
+  font-family: "couture-bld.otf";
+  font-size: 50px;
+  text-transform: uppercase;
+  padding: 60px 0;
+}
+
+.pricing__items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pricing__item {
+  max-width: 320px;
+  padding: 30px 55px 15px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 5px;
+}
+.pricing__item-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 80px;
+  text-transform: uppercase;
+  color: #c62314;
+}
+.pricing__item-text {
+  max-width: 175px;
+  font-family: "PT Serif", serif;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0 auto 15px;
+}
+.pricing__item-btn {
+  background-color: #130e27;
+  color: #fff;
+  width: 205px;
+  padding: 15px 0;
+  transition: all 0.3s;
+}
+.pricing__item-btn:hover {
+  background-color: #c62314;
+}
+
+.footer {
+  background-color: #130e27;
+}
+.footer__menu {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 80px;
+}
+.footer__menu_items {
+  display: flex;
+}
+.footer__menu_item {
+  color: #fff;
+  font-family: "PT Serif", serif;
+  font-size: 20px;
+  line-height: 22px;
+  margin-right: 10px;
+  padding-bottom: 80px;
+}
+.footer__menu_item-red {
+  color: #c62314;
+}
+.footer__logo {
+  color: #c62314;
+}/*# sourceMappingURL=style.css.map */

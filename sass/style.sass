@@ -1,0 +1,204 @@
+@font-face
+    font-family: "Quite Chocolatey"
+    src: url(../fonts/QuiteChocolatey.ttf)
+@font-face
+    font-family: "couture-bld.otf"
+    src: url(../fonts/couture-bld.otf)
+
+*, a
+    padding: 0
+    margin: 0
+    list-style: none
+    text-decoration: none
+
+
+.container
+    width: 1012px
+    text-align: center
+    margin: 0 auto
+
+.header
+    background-image: url(../img/MainBcg.png)
+    background-size: cover
+    background-repeat: no-repeat
+    justify-content: space-between
+    padding-top: 60px
+    color: #fff
+    
+    &__logo
+        font-family: "Quite Chocolatey"
+        font-size: 88px
+        line-height: 32px
+        font-stretch: 22px
+    &__menu
+        display: flex
+        justify-content: space-between
+        
+        margin-bottom: 160px
+        &_items
+            display: flex
+            justify-content: space-between
+            a
+                color: #fff
+                font-family: 'Montserrat', sans-serif
+                font-size: 18px
+                line-height: 22px
+                text-transform: uppercase
+        &_item
+            padding: 10px 15px
+            transition: all .3s
+            border-radius: 5px
+
+            &:hover
+                background-color: #130e27
+                padding: 10px 15px
+
+    &__title 
+        text-align: left
+        max-width: 55%
+        h2
+            font-family: 'Montserrat', sans-serif
+            font-size: 90px
+            font-weight: bold
+            text-transform: uppercase
+            line-height: 85px
+        &-1
+            color: #130e27
+        &-2
+            color: #fff
+            margin-bottom: 35px
+    &__text
+        font-family: 'PT Serif', serif
+        font-size: 20px
+        line-height: 28px
+        color: #fff
+        padding-bottom: 160px
+        max-width: 55%
+        text-align: left
+
+// services
+
+.services__title
+    display: flex
+    font-family: "couture-bld.otf"
+    font-size: 50px
+    text-transform: uppercase
+    padding-top: 42px
+    margin-bottom: 95px
+    &-1
+        color: #c62314
+        padding-left: 16px
+    &-2
+        color: #130e27
+        padding-left: 16px
+.services__items
+    display: flex
+    justify-content: space-between
+.services__item
+    max-width: 220px
+    &-icon
+        margin-bottom: 50px
+        height: 150px
+    &-text
+        font-family: 'PT Serif', serif
+        font-size: 20px
+        line-height: 28px
+        margin-bottom: 65px
+
+// STORY -----------------------
+
+.story
+    background-color: #130e27
+    
+.story__items
+    height: 120px
+    display: flex
+    justify-content: space-between
+    align-items: center
+    &-text
+        max-width: 620px
+        font-family: 'PT Serif', serif
+        font-size: 20px
+        line-height: 35px
+        color: #efeff1
+        text-align: left
+    &-btn
+        color: #fff
+        background-color: #c62314
+        transition: all .3s
+        &:hover
+            scale: 1.08
+.btn
+    font-family: 'Montserrat', sans-serif
+    border-radius: 10px
+    font-size: 22px
+    text-transform: uppercase
+    padding: 24px 77px
+    border: none
+    cursor: pointer
+
+//             pricing             
+
+.pricing
+    background-color: #efefef
+    &__container
+        flex-direction: column
+    &__title
+        font-family: "couture-bld.otf"
+        font-size: 50px
+        text-transform: uppercase
+        padding: 60px 0
+.pricing__items
+    display: flex
+    justify-content: space-between
+.pricing__item
+    max-width: 320px
+    padding: 30px 55px 15px
+    text-align: center
+    background-color: #fff
+    border-radius: 5px
+    &-title
+        font-family: 'Montserrat', sans-serif
+        font-weight: bold
+        font-size: 60px
+        line-height: 80px
+        text-transform: uppercase
+        color: #c62314
+    &-text
+        max-width: 175px
+        font-family: 'PT Serif', serif
+        font-size: 20px
+        line-height: 30px
+        margin: 0 auto 15px
+        
+    &-btn
+        background-color: #130e27
+        color: #fff
+        width: 205px
+        padding: 15px 0
+        transition: all .3s
+        &:hover
+            background-color: #c62314
+        
+
+//        FOOTER              
+
+.footer
+    background-color: #130e27
+    &__menu
+        display: flex
+        justify-content: space-between
+        padding-top: 80px
+        &_items
+            display: flex
+        &_item
+            color: #fff
+            font-family: 'PT Serif', serif
+            font-size: 20px
+            line-height: 22px
+            margin-right: 10px
+            padding-bottom: 80px
+            &-red
+                color: #c62314
+    &__logo
+        color: #c62314
